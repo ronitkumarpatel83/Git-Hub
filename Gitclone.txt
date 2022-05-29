@@ -1,0 +1,6 @@
+FOR CLONE
+Create a folder
+
+code:-
+git clone (repo link)
+

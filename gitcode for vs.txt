@@ -1,0 +1,46 @@
+creating repo for visualstudio
+use gitignore
+
+code
+git init
+git pull (repo link)
+ls -a(For checking file including hidden)
+git remote add origin (repo link for one time only)
+git status
+git commit -m "massage"
+git push -u origin branch
+
+change the file in remote
+git add ./file name
+git status
+git commit -m "massege"
+git reset HEAD~1
+git push -u origin master
+
+change remote to local
+-commit changes
+git pull
+
+which server you connected
+git remote -v
+
+How to create branch and merge
+git branch (for checking how many branch is there)
+git checkout -b "branch name" (create new branch and switched it )
+git branch example(create a new branch)
+git checkout -d "Branch name" (For deleting the branch)
+
+delete or changing branch name
+git branch -m new name
+git push origin -u new name
+git push origin --delete old name
+
+Path code:
+git config -l
+git remote -v
+
+how to rename branch name
+git checkout "old branch name"
+git branch -m "new branch name"
+git push -u origin "new branch name"
+git push origin --delete "old branch name"
